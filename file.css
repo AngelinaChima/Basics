@@ -11,10 +11,10 @@ header{
     padding-left: 10px;
 }
 header h1{
-padding-left: 100px;
-font-size: 90px;
+padding-left: 90px;
+font-size: 70px;
 color: grey;
-padding-top: 40px;
+padding-top: 20px;
 }
 main{
     font-size: 18px;
@@ -29,6 +29,14 @@ main img{
     padding-left: 180px;
     
 }
+.bck{
+    display:inline-block;
+    padding: 3px 3px
+} 
+.bck:hover{
+    background-color: rgb(118, 118, 159);
+}
+
 footer p{
     text-align: center;
     background-color: #000;
@@ -43,6 +51,10 @@ a{
 }*/
  a{
     border-radius: 1rem;
+    text-decoration: none;
+ }
+ .foot{
+    padding-top: 125px;
  }
 
  /* end of index.html
@@ -53,7 +65,7 @@ a{
 padding-left: 85px;
 font-size: 60px;
 color: grey;
-padding-top: 30px;
+padding-top: 20px;
  }
 
  .story{
@@ -67,7 +79,33 @@ padding-top: 30px;
  #contact{
     padding-left: 900px;
  }
- 
- 
+ .txt{
+    display: inline-block;
+    padding: 3px 4px;
+} 
+.txt:hover{
+    background-color: rgb(118, 118, 159);
+}
+
+.footer{
+    padding-top: 10px;
+}
+ /* end of about us
+ contact us begins */
+
+ .headr{
+    padding-left: 30px;
+    font-size: 50px;
+    color: grey;
+    padding-top: 10px;
+     }
+     
+.btn:hover{
+    background-color: rgb(118, 118, 159);
+}
+.btn{
+    display: inline-block;
+    padding: 4px 2px;
+}
 
 

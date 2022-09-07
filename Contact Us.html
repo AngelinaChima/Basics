@@ -8,28 +8,26 @@
     <title>Contact Page</title>
 </head>
 <header>
-    <div class="logo">
-    <img src="./Images/Graceful logo copy.PNG" alt="logo" width="70px">
-    </div>
-<div class="header"><h1>CONTACT US</h1>
-</div>
+    <img src="./Images/Graceful logo copy.PNG" alt="logo" width="90px">
+    <h1 class="headr">CONTACT US</h1>
+
 </header>
 <body>
     <main>
         <form action="#" method="get">
             <label for="name">First Name</label>
-            <input type="text" id="name"><br><br>
+            <input type="text" id="name" placeholder="Angelina" required><br>
             <label for="nam">Middle Name</label>
-            <input type="text" id="nam"><br><br>
+            <input type="text" id="nam" placeholder="Chima" required><br>
             <label for="na">Last Name</label>
-            <input type="text" id="na"><br><br>
+            <input type="text" id="na" placeholder="Onuoha" required><br>
             <label for="d.o.b">Date of Birth</label>
-            <input type="date" id="d.o.b"><br><br>
+            <input type="date" id="d.o.b" required><br>
             <label for="state">State of Residence</label>
             </select>
             <!--- Nigeria states -->
 <select id="country-state" name="country-state">
-    <option value="AB">Abia State</option>
+    <option value="IM">Imo State</option>
     <option value="AD">Adamawa State</option>
     <option value="AK">Akwa Ibom State</option>
     <option value="AN">Anambra State</option>
@@ -45,7 +43,7 @@
     <option value="EN">Enugu State</option>
     <option value="FC">Federal Capital Territory</option>
     <option value="GO">Gombe State</option>
-    <option value="IM">Imo State</option>
+    <option value="AB">Abia State</option>
     <option value="JI">Jigawa State</option>
     <option value="KD">Kaduna State</option>
     <option value="KN">Kano State</option>
@@ -65,27 +63,28 @@
     <option value="TA">Taraba State</option>
     <option value="YO">Yobe State</option>
     <option value="ZA">Zamfara State</option>
-</select><br><br>
+</select><br>
 <label for="tel">Phone Number</label>
-<input type="tel" id="tel"><br><br>
+<input type="tel" id="tel" placeholder="+234XXXXXXXXXX" required><br>
 <label for="email">Email Address</label>
-<input type="email" id="email"><br><br>
+<input type="email" id="email" placeholder="...@gmail.com" required><br>
 <label for="address">Home Address</label>
-<input type="text" id="address"><br><br>
+<input type="text" id="address" placeholder="Lagos, Nigeria" required><br>
 <label>Gender</label>
 <label for="male">Male</label>
-<input type="radio" id="male" name="gender">
+<input type="radio" id="male" name="gender" required>
 <label for="female">Female</label>
-<input type="radio" id="female" name="gender"><br><br>
-<p>Write a short note on the reasons why you should be considered on the team</p>
-<textarea name="tex" id="tex" cols="30" rows="10"></textarea><br>
+<input type="radio" id="female" name="gender" required><br>
+<div>Write a short note on the reasons why you should be considered on the team</div>
+<textarea name="tex" id="tex" cols="40" rows="5"></textarea required><br>
 <button>Click to Submit</button>
         </form>
     </main>
-</body><br><br>
+</body>
 <footer>
-   <nav> <a href="Index.html">Back to home page</a>
-    <a href="About Us.html">Back to about page</a></nav>
+   <nav> <a href="Index.html" class="btn">&laquo;Back</a>
+    <a href="About Us.html" class="btn">&raquo;About page</a></nav>
+    
     <hr>
     
     <p>Taught by Hertechtrail</p>
