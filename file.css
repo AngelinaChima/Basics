@@ -35,6 +35,7 @@ main img{
 } 
 .bck:hover{
     background-color: rgb(118, 118, 159);
+    cursor: pointer;
 }
 
 footer p{
@@ -85,6 +86,7 @@ padding-top: 20px;
 } 
 .txt:hover{
     background-color: rgb(118, 118, 159);
+    cursor: pointer;
 }
 
 .footer{
@@ -102,6 +104,7 @@ padding-top: 20px;
      
 .btn:hover{
     background-color: rgb(118, 118, 159);
+    cursor: pointer;
 }
 .btn{
     display: inline-block;
@@ -110,5 +113,10 @@ padding-top: 20px;
 .foter{
     padding-top: 32px;
 }
+.click:hover{
+cursor: pointer;
+background-color: rgb(118, 118, 159);
+}
+
 
 
