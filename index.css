@@ -183,7 +183,7 @@ div{padding-left: 5rem;}
         .head{font-size: 4rem;}
         div{padding-left: 1rem;}
         .bana{
-         width: 28rem;
+         width: 20rem;
          height: 25rem;}
          .para{padding-left: 1rem;}
  
@@ -195,6 +195,27 @@ div{padding-left: 5rem;}
  
    /* contact page */
  
-   .form{padding-left: 3rem;}
-   .head2{font-size: 4rem;}    
+   .head2{font-size: 4rem;}
+   .form{padding-left: 2rem;}    
   }      
+
+   /* index page @560*/
+   @media only screen and (max-width: 560px){
+    .head{font-size: 2rem;}
+    div{padding-left: 1rem;}
+    .bana{
+     width: 15rem;
+     height: 25rem;}
+     .para{padding-left: 1rem;}
+
+     /* about page */
+
+.head1{font-size: 2rem;}
+.para{padding-left: 1rem;}
+.pics{padding-left: 1rem;}
+
+/* contact page */
+
+.head2{font-size: 4rem;} 
+.form{padding-left: 1rem;}   
+}      
