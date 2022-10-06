@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(199, 202, 203);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    /*padding-left: 32rem;*/
+    
+}
+
+header li{
+    display: inline-block;
+    color: blue;
+    list-style-type: none;
+    
+}
+
+header li :hover{
+    color: wheat;
+}
+
+.logo{
+   height: 2rem;
+   width: 7rem;
+   padding-left: 1rem;
+}
+
+header{
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul li{
+    padding-right: 10px;
+}
+
+.foot{
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: blue;
+}
+
+/* index styling*/
+
+.head{
+    font-size: 6rem;
+    text-align: center;
+    color: grey;
+    padding-top: 2rem;
+}
+
+div{
+    padding-left: 11rem;
+}
+
+.bana{
+    width: 60rem;
+    height: 27rem;
+}
+
+.para{
+    font-size: 18px;
+    padding-top: 1rem;
+    color: blue;
+}
+
+
+
+/*About styling*/
+
+.head1{
+    color: grey;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.para{
+    padding-left: 6rem;
+}
+
+.story{
+    text-align: center;
+    color: grey;
+    padding-top: 1rem;
+}
+
+.pics{
+    display: flex;
+    padding-left: 5rem;
+    list-style-type: none;
+}
+
+/* contact styling*/
+
+.form{
+    font-size: 18px;
+   padding-left: 30rem;
+   color: blue;
+}
+
+.head2{
+    font-size: 6rem;
+    color: grey;
+    text-align: center;
+}
