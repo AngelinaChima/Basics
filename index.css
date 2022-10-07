@@ -48,7 +48,7 @@ header ul li{
     text-align: center;
     padding-bottom: 1rem;
     color: blue;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 /* index styling*/
@@ -146,14 +146,14 @@ div{padding-left: 5rem;}
 .pics{padding-left: 3rem;}
 .child1{
     padding-left: 2rem;
-    width: 16rem;
-    height: 16rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     }
 .child2{
     padding-left: 2rem;
-    width: 18rem;
-    height: 18rem;
+    width: 17rem;
+    height: 17rem;
     display: flex;
     padding-top: 2rem;
 }
@@ -180,14 +180,14 @@ div{padding-left: 5rem;}
 .pics{padding-left: 3rem;}
 .child1{
     padding-left: 2rem;
-    width: 14rem;
-    height: 14rem;
+    width: 12rem;
+    height: 12rem;
     display: flex;
     }
 .child2{
     padding-left: 2rem;
-    width: 16rem;
-    height: 16rem;
+    width: 14rem;
+    height: 14rem;
     display: flex;
     padding-top: 2rem;
 }
@@ -214,14 +214,14 @@ div{padding-left: 5rem;}
      .pics{padding-left: 2rem;}
      .child1{
         padding-left: 2rem;
-        width: 12rem;
-        height: 12rem;
+        width: 9rem;
+        height: 9rem;
         display: flex;
         }
     .child2{
         padding-left: 2rem;
-        width: 14rem;
-        height: 14rem;
+        width: 11rem;
+        height: 11rem;
         display: flex;
         padding-top: 2rem;
     }
@@ -248,14 +248,14 @@ div{padding-left: 5rem;}
  .pics{padding-left: 1rem;}
  .child1{
     padding-left: 2rem;
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     }
 .child2{
     padding-left: 2rem;
-    width: 12rem;
-    height: 12rem;
+    width: 8rem;
+    height: 8rem;
     display: flex;
     padding-top: 2rem;
 }
@@ -269,9 +269,9 @@ div{padding-left: 5rem;}
    /* index page @560*/
    @media only screen and (max-width: 560px){
     .head{font-size: 2rem;}
-    div{padding-left: 2rem;}
+    div{padding-left: 1rem;}
     .bana{
-     width: 23rem;
+     width: 22rem;
      height: 25rem;}
      .para{padding-left: 1rem;}
 
@@ -282,14 +282,14 @@ div{padding-left: 5rem;}
 .pics{padding-left: 1rem;}
 .child1{
     padding-left: 1rem;
-    width: 8rem;
-    height: 8rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     }
 .child2{
     padding-left: 1rem;
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
     display: flex;
     padding-top: 2rem;
 }
