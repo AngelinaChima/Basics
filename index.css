@@ -48,6 +48,7 @@ header ul li{
     text-align: center;
     padding-bottom: 1rem;
     color: blue;
+    margin-top: 4rem;
 }
 
 /* index styling*/
@@ -94,10 +95,24 @@ div{
     padding-top: 1rem;
 }
 
-.pics{
+.parent{
+    margin-top: 1rem;
+    
+}
+
+.child1{
+    padding-left: 2rem;
+    width: 18rem;
+    height: 18rem;
     display: flex;
-    padding-left: 5rem;
-    list-style-type: none;
+    }
+
+.child2{
+    padding-left: 2rem;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    padding-top: 2rem;
 }
 
 /* contact styling*/
@@ -129,6 +144,19 @@ div{padding-left: 5rem;}
 .head1{font-size: 4rem;}
 .para{padding-left: 4rem;}
 .pics{padding-left: 3rem;}
+.child1{
+    padding-left: 2rem;
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    }
+.child2{
+    padding-left: 2rem;
+    width: 18rem;
+    height: 18rem;
+    display: flex;
+    padding-top: 2rem;
+}
 
   /* contact page */
 
@@ -150,6 +178,19 @@ div{padding-left: 5rem;}
 .head1{font-size: 4rem;}
 .para{padding-left: 4rem;}
 .pics{padding-left: 3rem;}
+.child1{
+    padding-left: 2rem;
+    width: 14rem;
+    height: 14rem;
+    display: flex;
+    }
+.child2{
+    padding-left: 2rem;
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    padding-top: 2rem;
+}
 
   /* contact page */
 
@@ -171,6 +212,19 @@ div{padding-left: 5rem;}
      .head1{font-size: 3rem;}
      .para{padding-left: 3rem;}
      .pics{padding-left: 2rem;}
+     .child1{
+        padding-left: 2rem;
+        width: 12rem;
+        height: 12rem;
+        display: flex;
+        }
+    .child2{
+        padding-left: 2rem;
+        width: 14rem;
+        height: 14rem;
+        display: flex;
+        padding-top: 2rem;
+    }
      
        /* contact page */
      
@@ -183,7 +237,7 @@ div{padding-left: 5rem;}
         .head{font-size: 4rem;}
         div{padding-left: 1rem;}
         .bana{
-         width: 20rem;
+         width: 26rem;
          height: 25rem;}
          .para{padding-left: 1rem;}
  
@@ -192,6 +246,19 @@ div{padding-left: 5rem;}
  .head1{font-size: 3rem;}
  .para{padding-left: 2rem;}
  .pics{padding-left: 1rem;}
+ .child1{
+    padding-left: 2rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    }
+.child2{
+    padding-left: 2rem;
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    padding-top: 2rem;
+}
  
    /* contact page */
  
@@ -202,9 +269,9 @@ div{padding-left: 5rem;}
    /* index page @560*/
    @media only screen and (max-width: 560px){
     .head{font-size: 2rem;}
-    div{padding-left: 1rem;}
+    div{padding-left: 3rem;}
     .bana{
-     width: 15rem;
+     width: 25rem;
      height: 25rem;}
      .para{padding-left: 1rem;}
 
@@ -213,9 +280,22 @@ div{padding-left: 5rem;}
 .head1{font-size: 2rem;}
 .para{padding-left: 1rem;}
 .pics{padding-left: 1rem;}
+.child1{
+    padding-left: 1rem;
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    }
+.child2{
+    padding-left: 1rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    padding-top: 2rem;
+}
 
 /* contact page */
 
 .head2{font-size: 4rem;} 
-.form{padding-left: 1rem;}   
+.form{padding-left: 2rem;}   
 }      
