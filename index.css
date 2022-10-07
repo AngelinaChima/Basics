@@ -48,7 +48,7 @@ header ul li{
     text-align: center;
     padding-bottom: 1rem;
     color: blue;
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 /* index styling*/
@@ -167,9 +167,9 @@ div{padding-left: 5rem;}
        /* index page @992*/
  @media only screen and (max-width: 992px){
        .head{font-size: 4rem;}
-       div{padding-left: 3rem;}
+       div{padding-left: 2rem;}
        .bana{
-        width: 50rem;
+        width: 45rem;
         height: 25rem;}
         .para{padding-left: 3rem;}
 
@@ -201,9 +201,9 @@ div{padding-left: 5rem;}
         /* index page @768*/
         @media only screen and (max-width: 768px){
             .head{font-size: 3rem;}
-            div{padding-left: 3rem;}
+            div{padding-left: 2rem;}
             .bana{
-             width: 40rem;
+             width: 38rem;
              height: 25rem;}
              .para{padding-left: 2rem;}
      
@@ -237,7 +237,7 @@ div{padding-left: 5rem;}
         .head{font-size: 4rem;}
         div{padding-left: 1rem;}
         .bana{
-         width: 26rem;
+         width: 24rem;
          height: 25rem;}
          .para{padding-left: 1rem;}
  
@@ -269,9 +269,9 @@ div{padding-left: 5rem;}
    /* index page @560*/
    @media only screen and (max-width: 560px){
     .head{font-size: 2rem;}
-    div{padding-left: 3rem;}
+    div{padding-left: 2rem;}
     .bana{
-     width: 25rem;
+     width: 23rem;
      height: 25rem;}
      .para{padding-left: 1rem;}
 
