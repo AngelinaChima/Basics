@@ -67,6 +67,7 @@ div{
 .bana{
     width: 60rem;
     height: 27rem;
+    padding-top:3rem;
 }
 
 .para{
@@ -146,14 +147,14 @@ div{padding-left: 5rem;}
 .pics{padding-left: 3rem;}
 .child1{
     padding-left: 2rem;
-    width: 16rem;
-    height: 16rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     }
 .child2{
     padding-left: 2rem;
-    width: 18rem;
-    height: 18rem;
+    width: 17rem;
+    height: 17rem;
     display: flex;
     padding-top: 2rem;
 }
@@ -180,14 +181,14 @@ div{padding-left: 5rem;}
 .pics{padding-left: 3rem;}
 .child1{
     padding-left: 2rem;
-    width: 14rem;
-    height: 14rem;
+    width: 13rem;
+    height: 13rem;
     display: flex;
     }
 .child2{
     padding-left: 2rem;
-    width: 16rem;
-    height: 16rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     padding-top: 2rem;
 }
@@ -214,14 +215,14 @@ div{padding-left: 5rem;}
      .pics{padding-left: 2rem;}
      .child1{
         padding-left: 2rem;
-        width: 12rem;
-        height: 12rem;
+        width: 11rem;
+        height: 11rem;
         display: flex;
         }
     .child2{
         padding-left: 2rem;
-        width: 14rem;
-        height: 14rem;
+        width: 13rem;
+        height: 13rem;
         display: flex;
         padding-top: 2rem;
     }
